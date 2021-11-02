@@ -6,9 +6,15 @@
     "php": ">=7.1.0",
     "ext-json": "*",
     "ext-curl": "*",
-    "getvero/vero-php": "^1.0",
+    "getvero/vero-php": "dev-master",
     "illuminate/support": "^8.0"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/getvero/vero-php.git"
+    }
+  ],
   "license": "MIT",
   "authors": [
     {
