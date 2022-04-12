@@ -3,11 +3,11 @@
   "description": "A laravel extension for interacting with the Vero API using the Vero PHP library",
   "type": "library",
   "require": {
-    "php": ">=7.1.0",
+    "php": "^7.1|^8.0",
     "ext-json": "*",
     "ext-curl": "*",
     "getvero/vero-php": "dev-master",
-    "illuminate/support": "^8.0"
+    "illuminate/support": "^8.0|^9.0"
   },
   "repositories": [
     {
